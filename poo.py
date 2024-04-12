@@ -39,7 +39,7 @@ class Bicicleta:
     def __del__(self):
         print("Reciclando Bike... (removendo a instancia da classe)")
 
-# para chamar o nmetodo destrutor (del) é só chamar a palavra reservada del 
+# para chamar o nmetodo destrutor (del) é só chamar a palavra reservada del objeto.... nesse caso del b1 
 
 
 

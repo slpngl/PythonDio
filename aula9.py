@@ -1,5 +1,8 @@
 def escrever_arquivo(texto):
+    # diretorio = 'C:/Projetos/.../pastaatual/arquivo'
+    #quando voce nao passa nada ele cria no diretorio atual
     arquivo = open('teste.txt' , 'w')
+    #arquivo = open(diretorio, 'w')
 # se nao existir, ele cria, w -> write
     arquivo.write(texto)
     arquivo.close()

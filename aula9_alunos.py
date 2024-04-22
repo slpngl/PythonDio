@@ -32,6 +32,11 @@ def media_notas(nome_arquivo):
         media = lambda notas: sum([int(i) for i in notas])/4
         print (media(lista_notas))
 
+def copia_arquivo(nome_arquivo):
+    import shutil
+    shutil.copy(nome_arquivo, '')
+
+
 if __name__ == '__main__':
     aluno = 'Jandira, 10 , 9 , 8 , 7'
     atualizar_arquivo('notas.txt' , aluno)
